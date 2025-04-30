@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/teal_200"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tecnologia"
+            android:scaleType="centerCrop"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/editTituloNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Firebase: Tudo o que Você Precisa Saber"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/editNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O Firebase é uma plataforma desenvolvida pelo Google que oferece diversas ferramentas para facilitar o desenvolvimento de aplicativos web e mobile. Ele se destaca por ser uma solução completa, permitindo que desenvolvedores criem apps de forma mais rápida, segura e eficiente, sem a necessidade de gerenciar servidores complexos.
+
+Uma das principais funcionalidades do Firebase é o Realtime Database, um banco de dados em tempo real que sincroniza informações instantaneamente entre usuários e dispositivos. Além disso, a plataforma oferece o Cloud Firestore, uma solução mais flexível e escalável para projetos que exigem maior estruturação de dados.
+
+Outro recurso essencial é a autenticação de usuários, que permite integrar login via e-mail, senha, redes sociais ou provedores como Google e Facebook, de forma simples e segura. O Firebase também inclui serviços como Cloud Functions, que permite executar códigos no backend sem gerenciar servidores, e o Firebase Hosting, ideal para hospedar sites e aplicativos de forma rápida e confiável.
+
+Para quem precisa de notificações, o Firebase Cloud Messaging (FCM) é perfeito para envio gratuito de push notifications. Já para análise de dados, o Firebase Analytics ajuda a entender o comportamento dos usuários dentro do app, oferecendo métricas detalhadas.
+
+Além de tudo isso, o Firebase oferece ferramentas para testes de qualidade, segurança de dados e otimização de performance. Sua integração com outras plataformas do Google, como o Google Cloud, amplia ainda mais as possibilidades.
+
+Em resumo, o Firebase é uma escolha poderosa para quem quer desenvolver aplicativos modernos, escaláveis e com uma infraestrutura robusta, sem se preocupar com a complexidade dos bastidores."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple_500"
+            android:layout_margin="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/editAutorNoticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Michelle Ferreira"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/editDatadaNoticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="28/04/2025"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
