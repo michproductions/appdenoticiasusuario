@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App de Notícias Usuário</string>
+    <string name="noticia_titulo_padrao">Título não encontrado</string>
+    <string name="noticia_conteudo_padrao">Notícia não encontrada</string>
+    <string name="noticia_data_padrao">Data não encontrada</string>
+    <string name="noticia_autor_padrao">Autor não encontrado</string>
+
+    <!-- Para compatibilidade com edge-to-edge -->
+    <string name="status_bar_background">Status Bar Background</string>
+    <string name="navigation_bar_background">Navigation Bar Background</string>
+</resources>
